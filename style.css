@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 h2{
-   font-size: 60px; 
+   font-size: 380%; 
    font-family: 'Bruno Ace SC', cursive;
 }
 .section-background{
@@ -30,7 +30,43 @@ h2{
 }
 .text p{
     margin: 75px;
-    font-size: 32px;
+    font-size: 18px;
+    font-family: font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+   font-size: 380%; 
+   font-family: 'Bruno Ace SC', cursive;
+}
+.section-background{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.practice1{
+    background-image: url('jenjen.jpg')
+}
+.practice2{
+    background-image: url('kokie.jpg')
+}
+.practice3{
+    background-image: url('jae.jpg')
+}
+.text p{
+    margin: 75px;
+    font-size: 18px;
     font-family: font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
